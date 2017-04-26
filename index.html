@@ -7,7 +7,18 @@
   <body>
     <h1><center>FaZe Clan</center></h1>
     <svg id="canvas" width="100%" viewBox="0 0 200 100">
+        <circle cx="50" cy="20" r="15" fill="red">
+      <animate attributeName="fill" from="red" to="orange" dur="1s" begin="click" id="test1" fill="indefinite"/>
+            <animate attributeName="fill" from="orange" to="red" dur="1s" begin="test1.end" fill="indefinite"/>
+          </circle>
+              <circle cx="160" cy="20" r="15" fill="yellow">
+          <animate attributeName="fill" from="yellow" to="red" dur="1s" begin="click" id="test1" fill="indefinite"/>
+          <animate attributeName="fill" from="red" to="yellow" dur="1s" begin="test1.end" fill="indefinite"/>
+        </circle>
+        <h3>Click on the left circle</h3>
+        
     </svg>
     <script src="final_project.js"></script>
+  <button onclick="makeFirst()">Press!</button>
   </body>
 </html>
