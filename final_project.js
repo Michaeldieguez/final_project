@@ -5,6 +5,8 @@ function makeLogo(){
   makeImage("https://pbs.twimg.com/media/Ce7XYg8UsAUJL0T.png",83,7,50,50,1)
 }
 
+function 
+
 function makeFirst(){
    var rando1 = Math.random()
 if(rando1<0.33){

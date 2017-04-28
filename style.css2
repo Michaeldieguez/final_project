@@ -19,13 +19,3 @@ p{
   border:5px dashed blue;
   font-family: 'Rubik', sans-serif;
 }
-h2{
-   color:red;
-   background-color: yellow;
-   border:5px dashed blue;
-   width: 200px;
-}
-img{
-  background-color: blue;
-  border: 5px dashed yellow;
-}
