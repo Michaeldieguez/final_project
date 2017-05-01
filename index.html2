@@ -7,10 +7,10 @@
   <body>
     <h1><center>About</center></h1>
     <h2>FaZe Apex</h2>
-    <img src="https://pbs.twimg.com/profile_images/584889419762507776/9iBcZOA1.jpg" width=500 height=300
+    <img src="https://pbs.twimg.com/profile_images/584889419762507776/9iBcZOA1.jpg" width=500 height=300/>
     <svg id="canvas" width="100%" viewBox="0 0 200 100">
-
-    </svg>
+  </svg>
+      <button onclick="makeSecond()">Press!</button>
     <script src="final_project.js"></script>
   </body>
 </html>
