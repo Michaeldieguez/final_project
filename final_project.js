@@ -2,11 +2,11 @@ var namespace = "http://www.w3.org/2000/svg"
 
 // Write your code here!
 function makeLogo(){
-  makeImage("https://pbs.twimg.com/media/Ce7XYg8UsAUJL0T.png",83,7,50,50,1)
+  makeImage("https://pbs.twimg.com/media/Ce7XYg8UsAUJL0T.png",83,5,50,50,1)
 }
 
 function makeApex(){
-  makeImage("https://user-image.creekcdn.com/mediasvc/v1/user/avatar/v/3/res/256x256/92cb26ed-50d1-11e5-a3ce-42010af04645.jpg",120,-20,50,50,1)
+  makeImage("https://user-image.creekcdn.com/mediasvc/v1/user/avatar/v/3/res/256x256/92cb26ed-50d1-11e5-a3ce-42010af04645.jpg",120,7,50,50,1)
 }
 
 function makeSecond(){

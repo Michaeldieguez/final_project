@@ -28,4 +28,5 @@ h2{
 img{
   background-color: blue;
   border: 5px dashed yellow;
+  display:inline;
 }
