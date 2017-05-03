@@ -8,10 +8,10 @@
     <h1><center>About</center></h1>
     <h2>FaZe Apex</h2>
     <img src="https://pbs.twimg.com/profile_images/584889419762507776/9iBcZOA1.jpg" width=500 height=300/>
-    <p>One youtuber that</p>
-    <svg id="canvas" width="100%" viewBox="0 0 200 100">
-  </svg>
-      <button onclick="makeSecond()">Press!</button>
-    <script src="final_project.js"></script>
+    <img src="https://user-image.creekcdn.com/mediasvc/v1/user/avatar/v/3/res/256x256/92cb26ed-50d1-11e5-a3ce-42010af04645.jpg"width=200 height=200/>
+    <p>One youtuber that lives in the FaZe House is FaZe Apex.He is one of the co-leaders in FaZe. He has over 4.3 million subscirbers on youtube.He joined FaZe when he was just 14 year old. Right now he is 20 years old. He joined FaZe by trick shot in Call of Duty like other FaZe members. He was born here in California in June 20, 1996.</p>
+  <h2>FaZe Rain</h2>
+  <img src="https://i.ytimg.com/vi/x5E9L9jz7hk/maxresdefault.jpg"width=500 height=300/>
+  <img src="http://net.archbold.k12.oh.us/ahs/web_class/Fall_15/FaZeClan_Powers/Images/Rain1.png"width=200 height=200/>
   </body>
 </html>
