@@ -1,7 +1,91 @@
 var namespace = "http://www.w3.org/2000/svg"
 
 // Write your code here!
+var score = 0
+var scoreText = makeText(score, 0,  30, 20, "sans-serif", "red")
+score= score+1
 
+
+var Jake= makeImage("http://pictures.dealer.com/a/audiofwallingfordaoa/0189/fb4799a240463872010ac2a3e3b41b45.png", 125, 150, 20, 20, 1)
+
+ var Ice1 = makeImage("http://www.ford.com/cmslibs/content/dam/vdm_ford/live/en_us/ford/nameplate/mustang/2017/collections/AdPlaners/17_frd_mst_3qtr_eb_coup_lgbl_356.png/_jcr_content/renditions/cq5dam.web.1280.1280.png", 10, 20, 70, 60)
+var Ice2= makeImage("http://www.ford.com/cmslibs/content/dam/vdm_ford/live/en_us/ford/nameplate/mustang/2017/collections/AdPlaners/17_frd_mst_3qtr_eb_coup_lgbl_356.png/_jcr_content/renditions/cq5dam.web.1280.1280.png", 120, 240, 20, 20)
+var Ice3 = makeImage("http://www.ford.com/cmslibs/content/dam/vdm_ford/live/en_us/ford/nameplate/mustang/2017/collections/AdPlaners/17_frd_mst_3qtr_eb_coup_lgbl_356.png/_jcr_content/renditions/cq5dam.web.1280.1280.png", 220, 150, 30, 30)
+var Ice4=
+makeImage("http://www.ford.com/cmslibs/content/dam/vdm_ford/live/en_us/ford/nameplate/mustang/2017/collections/AdPlaners/17_frd_mst_3qtr_eb_coup_lgbl_356.png/_jcr_content/renditions/cq5dam.web.1280.1280.png",140,50,50,50)
+var Ice5=
+makeImage("http://www.ford.com/cmslibs/content/dam/vdm_ford/live/en_us/ford/nameplate/mustang/2017/collections/AdPlaners/17_frd_mst_3qtr_eb_coup_lgbl_356.png/_jcr_content/renditions/cq5dam.web.1280.1280.png",230,0,60,70)
+var Ice6=
+makeImage("http://www.ford.com/cmslibs/content/dam/vdm_ford/live/en_us/ford/nameplate/mustang/2017/collections/AdPlaners/17_frd_mst_3qtr_eb_coup_lgbl_356.png/_jcr_content/renditions/cq5dam.web.1280.1280.png",73,65,50,50)
+
+function moveIce (){
+  move(Ice1,0,1.1)
+  move(Ice2,0,0.7)
+  move(Ice3,0,0.9)
+  move(Ice4,0,1.1)
+  move(Ice5,0,1.1)
+  move(Ice6,0,1.1)
+  var y = getY(Ice1)
+  if (y>300){
+    setY(Ice1,-60)
+    var y = getY(Ice2)
+  }if (y>300){
+       setY(Ice2,-20)
+    var y= getY(Ice3)
+   }if (y>300){
+        setY(Ice3,-40)
+      }if(y>300){
+        setY(Ice4,-30)
+      }if(y>300){
+        setY(Ice5,-50)
+      }if(y>300){
+        setY(Ice6,-150)
+      }if (collides(Jake,Ice1)){
+        setX(Jake,125)
+        setY(Jake,150)
+
+
+      }if(collides(Jake,Ice2)){
+        setX(Jake,125)
+        setY(Jake,150)
+
+      }if(collides(Jake,Ice3)){
+        setX(Jake,125)
+        setY(Jake,150)
+
+      }if(collides(Jake,Ice4)){
+        setX(Jake,125)
+        setY(Jake,150)
+
+      }if(collides(Jake,Ice5)){
+        setX(Jake,125)
+        setY(Jake,150)
+
+      }if(collides(Jake,Ice6)){
+        setX(Jake,125)
+        setY(Jake,150)
+
+      }
+  requestAnimationFrame(moveIce)
+}
+
+
+addEventListener("keydown",moveJake)
+function moveJake(event) {
+  // YOUR CODE GOES HERE!
+
+  var x =getX(Jake)
+  var y = getY(Jake)
+if(event.key=="a"&&x>5){
+  move(Jake,-10,0)
+}else if(event.key=="d"&&x<270) {
+  move(Jake,10,0)
+}else if(event.key=="w"&&y>0){
+  move(Jake,0,-10)
+  }else if(event.key=="s"&&y<180){
+   move(Jake,0,10)
+ }
+}
 
 
 
